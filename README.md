@@ -25,8 +25,7 @@
   }`        
   ***Main** 类 实现程序运转的主要功能
   `public class Main {
-  static ArrayList&lt;
-  Line> LineList = new ArrayList&lt;>();//存放所有线路的列表
+  static ArrayList&lt;Line> LineList = new ArrayList&lt;>();//存放所有线路的列表
   static ArrayList&lt;Station> StationList = new ArrayList&lt;>();//存放线路站点的列表
   static HashMap&lt;String, Station> stationHashMap = new HashMap&lt;>();//存放对应站点的Hash 
   /*对文件进行读入和存储操作*/
